@@ -1,10 +1,50 @@
+/*header*/
+
+header{
+    background:linear-gradient();
+    padding-top: 15px;
+}
+
+.cabecalhou{
+    position: relative;
+    width: 900px;
+    margin:0 auto;
+}
+
+#logo:hover{
+    transition: 5s;
+    transform: scale(1.1);
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a:hover{
+    transition: 0.2s;
+    color: darkgray;
+    text-decoration: underline;
+}
+
 h1{
     color: rgb(0, 38, 141);
     text-align: center;
     font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
-
 }
 
 p{
