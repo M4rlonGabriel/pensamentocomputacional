@@ -57,7 +57,7 @@ p{
 }
 
 b{
-    color:rgb(87, 86, 86);
+    color:rgb(0, 0, 0);
     font-size: 26px;
     text-transform: capitalize;
 }
@@ -80,4 +80,8 @@ h2{
 body{
     background-color: #c0c0c0;
     text-align: justify;
+}
+
+h1{
+    color: rgb(0, 10, 143);
 }
