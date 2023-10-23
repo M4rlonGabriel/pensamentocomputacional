@@ -17,7 +17,7 @@ header{
 
 #logo:hover{
     transition: 1s;
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 nav{
@@ -47,7 +47,7 @@ nav a {
 /*fim do header*/   
 
 .titulo-principal{
-    color:rgb(3, 0, 179);
+    color:rgb(2, 0, 121);
     text-align: center;
     font-size: 60px;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ p{
 }
 
 h2,h3{
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     text-transform: uppercase;
 }
