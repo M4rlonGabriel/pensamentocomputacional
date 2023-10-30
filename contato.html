@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="contato.css">
 </head>
 <body>
-    <div class="cabecalhou">
+    <header>
+ 
+    <div class="cabecalho">
     <h1>
         <a href="index.html" title="Página Inicial">
             <img src="logo.png" alt="logo da barbearia alura na cor preta"
@@ -32,12 +34,22 @@
     </ul>
     </nav>
     </div>
-    <header>
+</header>
         <main>
             <form>
                 <p>Os campos com * são obrigatórios!</p>
+                <label for="nomecompleto">Nome Completo</label>
+                <input class="input-padrao" type="email" id="email" required
+                placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input class="input-padrao" type="tel" id="email" required
+                placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mesagem">Mensagem</label>
+                <textarea cols="70" rows="5" id="Mensagem"
+                placeholder="Ex: Gostaria de agendar um corte de cabelo e barbearia para o próximo sábado."></textarea>
             </form>
         </main>
-    </header>
 </body>
 </html>

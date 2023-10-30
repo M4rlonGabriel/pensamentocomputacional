@@ -16,8 +16,8 @@ header{
 }
 
 #logo:hover{
-    transition: 1s;
-    transform: scale(1.0);
+    transition: 1.5s;
+    transform: scale(1.2);
 }
 
 nav{
